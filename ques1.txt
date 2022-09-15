@@ -1,0 +1,58 @@
+
+
+
+let obj=[
+    
+  {
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  },
+  {
+
+    "id": 2,
+    "title": "qui est esse"
+  },
+  {
+  
+    "id": 3,
+    "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut"
+  },
+  {
+   
+    "id": 4,
+    "title": "eum et est occaecati"
+  }];
+
+
+//FOR LOOP
+
+ for(var i=0;i<obj.length;i++){
+      console.log(obj[i].id,obj[i].title);
+  }
+
+
+ //FOR EACH LOOP
+
+  obj.forEach(data=>{
+
+      console.log(data.id, data.title);
+      })
+
+ 
+//FOR IN LOOP
+
+
+for(var i=0;i<obj.length;i++){
+    for(var key in obj[i])
+    {
+        console.log(key,obj[i][key]);
+    }
+}
+
+//FOR OF LOOP
+
+for(var data of obj){
+    console.log(data.id,data.title)
+}
+
+

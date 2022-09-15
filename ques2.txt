@@ -1,0 +1,13 @@
+var obj=
+    
+  {
+    "Name": "Ezhilarasi",
+    "E-Mail": "ezhilarasi.k@icloud.com",
+    "phone": "+91 7702169657",
+    "Address":"2-131, Aravakappu st.,Nagari, 517590,Chittoor dt., Andhra Pradesh",
+    "Summary": "Seeking a position to utilize my skills and abilities in the Computer industries that offers professional growth while being resourceful, innovative and flexible. Willing to work as a key player in a challenging and creative environment.",
+    "Qualifications":"M.Tech CSE",
+    "Project": "Natural Language Inference in Tamil: Dataset and Evaluation",
+    "Hobbies":"Cooking,Spiritual Activities"
+  }
+    console.log(obj);
